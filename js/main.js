@@ -5,6 +5,6 @@ const dataId = githubData.find(data => {
 });
 
 console.log(`${dataId}`);
+const message = dataId.payload.commits[0].message;
 
-
-console.log(`data message: ${}}`);
+console.log(`data message: ${message}}`);
